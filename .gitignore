@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+/htmlcov/
+.tox/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+pip-log.txt
+pip-delete-this-directory.txt
+.history/  # VS Code Local History
+
+# Environments (Common Virtual Environment Names)
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System Files
+.DS_Store # macOS
+.Trashes # macOS
+ehthumbs.db # Windows
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Editor/IDE Specific Files
+.vscode/ # VS Code settings, but you might want to share some if it's collaborative setup.
+.idea/ # IntelliJ IDEA
+*.swp # Vim swap files
+*.swo # Vim swap files
+*~ # Emacs backup files
+*.sublime-project
+*.sublime-workspace
+.project # Eclipse
+.settings/ # Eclipse
+.buildpath # Eclipse
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+htmlcov/
+.nox/
+
+# PyInstaller / cx_Freeze / Nuitka
+# These are for creating standalone executables
+*.spec
+build/
+dist/
+
+# Jupyter Notebook related
+.ipynb_checkpoints/ # Jupyter checkpoints
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+/data/*.db # Specific for common database locations
+*.db-journal
+
+# Compiled/Runtime files for web frameworks (if applicable)
+*.wsgi
+
+# Sensitive / Configuration files (if not managed by config management)
+.env # Common for environment variables
+.flaskenv # Flask specific environment variables
+config.ini.local # Example for local config file
+settings.pyc
+local_settings.py # Django local settings
+
+# Uploads or user-generated content
+/uploads/
+/media/
+
+# Node.js (if also a frontend project)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json # Or yarn.lock if you want to ignore them
+
+# Docker
+.dockerignore # This file should itself not be ignored
+Dockerfile.bak # Backup Dockerfiles
+docker-compose.override.yml # If you have local overrides
+
+# AWS / Cloud specific
+.aws/
+.terraform/
+terraform.tfstate # Terraform state files
+terraform.tfstate.backup
+*.tfvars # Variable definition files (if sensitive)
+.serverless/
+
+# Add any specific files you manually know you want to ignore
+# For example, if you have a custom output folder:
+# /output/
+# /processed_data/
